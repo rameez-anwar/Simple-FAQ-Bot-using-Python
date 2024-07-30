@@ -33,7 +33,7 @@ faq_database = {
 # Initialize the chatbot with the FAQ database
 chatbot = SimpleChatbot(faq_database)
 
-# Example interaction with the chatbot
+
 while True:
     user_input = input("You: ")
     
