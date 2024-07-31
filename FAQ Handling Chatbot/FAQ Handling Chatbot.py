@@ -6,7 +6,6 @@ class SimpleChatbot:
         # Tokenize user's query
         user_tokens = set(user_query.lower().split())
 
-        # Iterate through FAQ entries and find the one with the most common words
         best_match_question, best_match_count = None, 0
 
         for question, answer in self.faq_database.items():
